@@ -1,0 +1,8 @@
+# Ref: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+
+no-inline-html: false
+
+line-length:
+  line_length: 120
+
+fenced-code-language: false
