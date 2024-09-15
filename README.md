@@ -7,14 +7,28 @@ This project is based on [OpenSaas](https://opensaas.sh) template and consists o
 3. `blog` - Your blog / docs, built with [Astro](https://docs.astro.build) based on
   [Starlight](https://starlight.astro.build/) template.
 
-## Build
+## Getting Started
 
 1. Prerequisites. Here's what you need to be able to run Comedy Connector locally:
    - Node.js, v18+
    - npm global installs: `pnpm`
    - [wasp](https://docs.opensaas.sh/start/getting-started/)
 
-2. Check READMEs of each respective directory
+2. Run db: `wasp start db`
+
+3. Run app
+
+  ```shell
+  cd app
+  wasp start
+  ```
+
+3. Run docs/blog
+
+  ```shell
+  cd blog
+  npm run dev
+  ```
 
 ## Contributing
 
